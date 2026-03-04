@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(4, 177, 4)
+}
+
+.container-imagem {
+    position: relative; /* O pai precisa ser relativo */
+    width: fit-content;
+    margin-left: 30%;
+}   
+
+.radar-do-dragao {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.informacoes-dentro-imagem{
+    position: absolute; /* O conteúdo flutua sobre o pai */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza perfeitamente */
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Um fundo semi-transparente ajuda na leitura */
+    padding: 20px;
+}
+#lista-de-esferas {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    
+    display: grid;
+    /* Cria 2 colunas com o mesmo tamanho (1fr cada) */
+    grid-template-columns: repeat(4, 1fr); 
+  
+    /* Espaço entre as esferas */
+    gap: 15px; 
+  
+    /* Remove as bolinhas da lista */
+    list-style: none; 
+    padding: 20px;
+  
+    /* Centraliza a grade dentro do container se ele for maior */
+    justify-items: center; 
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+button{
+    color: white;
+    background-color: rgb(255, 106, 0);
+    border: none;
+    border-radius: 3px;
+    font-size: 12pt;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;/*Deixa o efeito de passar o mouse suave*/
+}
+
+button:hover {
+    filter: brightness(1.2);/*Dá um brilho quando passa o mouse*/
+}
+

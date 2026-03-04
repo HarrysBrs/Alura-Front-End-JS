@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicas Favoritas</title>
+    <link rel="stylesheet" href="/Estudos/Ex5/style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main> 
+        <form>
+            <div class="formulario-musica">
+                <h1>NOVA MÚSICA</h1>
+                <input type="text" name="musica-nova" id="musica-nova" placeholder="Nome da Música?">
+                <hr>
+                <input type="text" name="nome-banda" id="nome-banda" placeholder="Nome da Banda?">
+                <hr>
+                <label for="avatar">Envie a Imagem da Banda ⤵️​</label><br><br>
+                <input type="file" name="avatar" id="avatar" accept="image/png,image/jpeg">
+                <hr>
+                <button type="button" id="enviar">Enviar</button>
+            </div>
+        </form>
+            <div class="playlist">
+                <div id="topo-album">
+                    <div id="imagem-album">
+                        <img src="/Estudos/Ex5/img/capa-album400.png" alt="menina anime capa de album" width="225" height="225">
+                        <p id="nome-variavel">Mix de Yasmim</p>
+                    </div>
+                    <div class="topo-direita">
+                        <p id="paragrafo-diferente">Playlist pública</p>
+                        <h1>Mix Yasmim</h1>
+                        <p>variavel aqui</p>
+                        <div class="imagem-texto-topo-direita">
+                            <img src="/Estudos/Ex5/img/logo-spotfy.png" alt="logo spotify" width="25" height="25">
+                            <p>Feito para <strong id="texto-bold">Yasmim</strong></p>
+                        </div>
+                        <p>Sobre recomendações e o impacto da divulgação</p>
+                    </div>
+                </div>
+                <div class="container-botoes">
+                    <input type="image" src="/Estudos/Ex5/img/logo-play.png">  
+                </div>
+                <div class="bloco-de-lista">
+                    <div class="lista-01">#</div> <div class="lista-02">Título</div> <div class="lista-03">Álbum</div> <div class="lista-04"><img src="/Estudos/Ex5/img/relogio.png" alt="relogio" height="20" width="20"></div>
+                </div>
+                <hr>
+                <div class="lista-de-musicas">
+                    
+                </div>
+            </div>
+    </main>   
+</body>
+</html>

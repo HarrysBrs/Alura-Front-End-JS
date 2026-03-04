@@ -67,7 +67,6 @@ p {
     border-radius: 24px;
     border: 1px solid var(--preto);
     width: 307px;
-
     font-family: var(--fonte-texto);
 }
 
@@ -130,7 +129,6 @@ ul {
     top: -10%;
     width: 5px;
     height: 14px;
-
     border-top: 2px solid var(--neutro);
     border-left: 2px solid var(--neutro);
 
